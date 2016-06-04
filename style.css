@@ -1,0 +1,170 @@
+body{
+	background-color: #80CCA9;
+	color: white;
+	font-family: 'Poppins', Helvetica, Arial, sans-serif;
+	text-align: justify;
+	letter-spacing: 2px;
+}
+
+ul {
+	border-radius: 15px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+	background-color: #F9F9F9;
+
+}
+
+li a {
+	border-radius: 15px;
+    display: block;
+    color: #55A589;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	border-radius: 0px;
+    background-color: #999;
+    color: white;
+}
+
+#home a:hover {
+	border-radius: 15px 15px 0px 0px;
+}
+
+#about a:hover {
+	border-radius: 0px 0px 15px 15px;
+    color: white;
+}
+
+#menu ul ul li a {
+	border-radius: 0px;
+	line-height: 1.6em;
+	background-color: #CCC;
+
+}
+
+#menu ul ul{
+	border-radius: 0px;
+	display: none;
+} 
+
+#menu ul ul a:hover{
+	border-radius: 0px;
+}
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+
+header {
+ 	position: fixed;
+    height: 80px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: #80CCA9;
+
+}
+
+#menu{
+	width: 150px;
+	float: left;
+	padding: 75px 5px;
+}
+
+#middle {
+	border-radius: 25px;
+	background-color: #F9F9F9;
+	color: #55A589;
+	width: 550px; 
+	height: 1000px;
+	float: left;
+	padding: 0px 15px;
+	margin: 70px 5px 5px 15px;
+
+}
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.tooltip{
+   	display: inline;
+    position: relative;
+}
+		
+.tooltip:hover:after{
+    background: #F9F9F9;
+    background: rgba(0,0,0,.8);
+    border-radius: 15px;
+    bottom: 26px;
+    color: #FFF;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+    font-size: 12px;
+}
+		
+.tooltip:hover:before{
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
+}
+	
+	
+#sidebar {
+	border-radius: 25px;
+	background-color: #55A589;
+	color: #F9F9F9;
+	width: 150px; 
+	height: 400px;
+	float: left;
+	padding: 0px 15px;
+	margin: 70px 5px 5px 15px;
+
+}
+
+img {
+	margin-left: 25px;
+	margin-top: 10px; 
+}
+
+#shimage{
+	margin-top: 20px;
+	margin-left: 20px;
+	max-width: 200px;
+	max-height: 200px;
+}
+
+footer {
+	clear: both;
+	padding: 0 15px;
+	font-weight: lighter;
+}
+
+
